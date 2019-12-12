@@ -134,9 +134,9 @@ CREATE INDEX "idx_grade_association_id" ON "labs"."public"."grade" ("association
 --                                                   INSERTION DATA                                                   --
 -- ------------------------------------------------------------------------------------------------------------------ --
 
--- --------- --
--- Role data --
--- --------- --
+--- ---------- ---
+--- Role data  ---
+--- ---------- ---
 
 INSERT INTO "labs"."public"."role" (role_id, role_name)
     VALUES (1, 'Estudiante'),
